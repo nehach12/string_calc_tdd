@@ -17,10 +17,12 @@ Implement a method `add(string numbers)` that:
 
 ---
 
-## 🛠️ Usage
+### ▶️ To run tests:
 
-**Run calculator manually:**
+1. **Install dependencies**
+   ```bash
+   bundle install
 
-```ruby
-StringCalculator.add("1,2,3") # => 6
-StringCalculator.add("//;\n2;4") # => 6
+2. **Run the test suite**
+  bundle exec rspec
+
